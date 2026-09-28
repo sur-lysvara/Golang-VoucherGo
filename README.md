@@ -59,7 +59,7 @@ Run:
 
 ## Donasi
 
-Jika VoucherGo bermanfaat dan Anda ingin mendukung pengembangan project ini, belikan saya segelas kopi:
+Jika VoucherGo bermanfaat dan Anda ingin mendukung pengembangan project ini, belikan kami segelas kopi:
 
 | Aset | Network | Alamat |
 |---|---|---|
