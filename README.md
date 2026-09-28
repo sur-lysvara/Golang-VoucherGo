@@ -1,4 +1,3 @@
-cd ~/vouchergo-open && python3 -c 'from pathlib import Path; Path("README.md").write_text("""# VoucherGo
 
 > Self-hosted WiFi voucher management for MikroTik.
 
