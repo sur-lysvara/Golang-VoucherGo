@@ -55,7 +55,7 @@ Run:
 
     ./vouchergo
 
-> Deployment production mungkin memerlukan konfigurasi tambahan untuk database, MikroTik, WhatsApp gateway, HTTPS, dan systemd.
+> Deployment production mungkin memerlukan konfigurasi tambahan untuk database, MikroTik, WhatsApp gateway, HTTPS, Payment gateway dan systemd.
 
 ## Donasi
 
