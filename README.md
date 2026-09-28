@@ -1,28 +1,28 @@
 # VoucherGo
 
-> Self-hosted WiFi voucher management for MikroTik.
+> Manajemen voucher WiFi MikroTik yang dapat di-hosting sendiri.
 
-VoucherGo is a lightweight web application for managing and selling MikroTik WiFi / hotspot vouchers with integrated QRIS payments and WhatsApp notifications.
+VoucherGo adalah aplikasi web ringan untuk mengelola dan menjual voucher WiFi / hotspot MikroTik, dengan integrasi pembayaran QRIS dan notifikasi WhatsApp.
 
-## Features
+## Fitur
 
-- WiFi voucher sales
-- Multi-router MikroTik support
+- Penjualan voucher WiFi
+- Dukungan multi-router MikroTik
 - RouterOS REST API & Classic API
-- QRIS payment via Pakasir
-- Automatic voucher provisioning
-- WhatsApp notification gateway
-- Admin & reseller management
-- Voucher package management
-- Transaction & billing management
-- Router and client management
-- Responsive mobile-friendly UI
-- Maintenance mode
-- CSRF protection and configurable security settings
+- Pembayaran QRIS melalui Pakasir
+- Aktivasi voucher otomatis
+- Gateway notifikasi WhatsApp
+- Manajemen admin & reseller
+- Manajemen paket voucher
+- Manajemen transaksi & billing
+- Manajemen router dan client
+- Tampilan responsif untuk perangkat mobile
+- Mode maintenance
+- Perlindungan CSRF dan konfigurasi keamanan
 
 ## Tech Stack
 
-- Go Language
+- Go
 - MariaDB / MySQL
 - MikroTik RouterOS
 - Pakasir Payment Gateway
@@ -32,17 +32,17 @@ VoucherGo is a lightweight web application for managing and selling MikroTik WiF
 
 ## Quick Start
 
-### Requirements
+### Persyaratan
 
 - Go 1.20+
 - MariaDB / MySQL
 - MikroTik RouterOS
-- Linux server
+- Linux Server
 - Node.js
 
-### Installation
+### Instalasi
 
-Clone the repository:
+Clone repository:
 
     git clone https://github.com/sur-lysvara/Golang-VoucherGo.git
     cd Golang-VoucherGo
@@ -55,14 +55,14 @@ Run:
 
     ./vouchergo
 
-> Production deployments may require additional configuration for the database, MikroTik, WhatsApp gateway, HTTPS, and systemd.
+> Deployment production mungkin memerlukan konfigurasi tambahan untuk database, MikroTik, WhatsApp gateway, HTTPS, dan systemd.
 
+## Donasi
 
-## Donations
+Jika VoucherGo bermanfaat dan Anda ingin mendukung pengembangan project ini, donasi dapat dilakukan melalui:
 
-If you find VoucherGo useful and would like to support the project, you can donate using:
-
-| Asset | Network | Address |
+| Aset | Network | Alamat |
 |---|---|---|
 | Bitcoin (BTC) | Bitcoin | `bc1qd9eumepe2nhx5tazcvqm5r43jgz7ny6c0mcz28` |
 | Tether (USDT) | TRC20 | `TKgD73uLYDtEDYE6ZX6sDMhKGd8WtVpCm7` |
+| Monero (XMR) | Monero | `89EMb1LGtZDY9PfuBkWJ7gH9ig45K1a3P4VbF6BdChx1izW55w3qRX8M9t9Q6x1JhLifoMgzcx6ryUTZHgkkqibyMspR8a8` |
