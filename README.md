@@ -22,10 +22,10 @@ VoucherGo is a lightweight web application for managing and selling MikroTik WiF
 
 ## Tech Stack
 
-- Go
+- Go Language
 - MariaDB / MySQL
 - MikroTik RouterOS
-- Pakasir QRIS
+- Pakasir Payment Gateway
 - whatsapp-web.js
 - Apache
 - systemd
