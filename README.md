@@ -12,11 +12,15 @@
 
 Clone the repository:
 
-```bash
-git clone https://github.com/sur-lysvara/Golang-VoucherGo.git
-cd Golang-VoucherGo
-
+    git clone https://github.com/sur-lysvara/Golang-VoucherGo.git
+    cd Golang-VoucherGo
 
 Build:
-```bash
-go build -o vouchergo .
+
+    go build -o vouchergo .
+
+Run:
+
+    ./vouchergo
+
+> Production deployments may require additional configuration for the database, MikroTik, WhatsApp gateway, HTTPS, and systemd.
