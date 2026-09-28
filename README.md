@@ -18,5 +18,5 @@ cd Golang-VoucherGo
 
 
 Build:
-
+```bash
 go build -o vouchergo .
