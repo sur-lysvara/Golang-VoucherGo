@@ -1,0 +1,28 @@
+# /etc/systemd/system/wa-webjs.service
+[Unit]
+Description=Local WhatsApp Web JS Gateway
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/wa-webjs
+Environment=NODE_ENV=production
+Environment=HOST=127.0.0.1
+Environment=PORT=8666
+Environment=API_KEY=change-me
+Environment=AUTH_DIR=/var/www/wa-webjs/sessions
+Environment=PUPPETEER_CACHE_DIR=/var/www/wa-webjs/.cache/puppeteer
+Environment=HOME=/var/www/wa-webjs
+ExecStart=/usr/bin/node /var/www/wa-webjs/server.js
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ReadWritePaths=/var/www/wa-webjs
+
+[Install]
+WantedBy=multi-user.target

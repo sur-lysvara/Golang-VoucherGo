@@ -1,0 +1,16 @@
+{
+  "name": "wa-webjs-local-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local WhatsApp gateway using whatsapp-web.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "qrcode": "^1.5.4",
+    "whatsapp-web.js": "^1.26.0",
+    "puppeteer": "^23.11.1"
+  }
+}

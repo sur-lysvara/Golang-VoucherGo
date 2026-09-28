@@ -1,0 +1,8 @@
+node_modules/
+sessions/
+.cache/
+.config/
+*.log
+*.bak_*
+npm-debug.log*
+.local/

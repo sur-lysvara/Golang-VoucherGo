@@ -1,0 +1,41 @@
+# binary / build
+tuku
+tuku.new
+*.new
+
+# secrets / env
+.env
+*.env
+config.env
+secrets.*
+*.key
+*.pem
+
+# backups / dumps
+*.bak
+*.bak_*
+*.broken*
+*.tar
+*.tar.gz
+*.zip
+*.sql
+backup/
+backups/
+
+# logs / temp
+*.log
+logs/
+tmp/
+*.tmp
+
+# editor
+.vscode/
+.idea/
+.DS_Store
+tuku.bak*
+main.go.broken*
+
+# ai workspace
+.agents/
+AGENTS.md
+.git-private-backup/
