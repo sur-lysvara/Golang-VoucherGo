@@ -9,7 +9,7 @@ VoucherGo adalah aplikasi web ringan untuk mengelola dan menjual voucher WiFi / 
 - Penjualan voucher WiFi
 - Dukungan multi-router MikroTik
 - RouterOS REST API & Classic API
-- Pembayaran QRIS melalui Pakasir
+- Pembayaran QRIS dynamis Payment Gateway
 - Aktivasi voucher otomatis
 - Gateway notifikasi WhatsApp
 - Manajemen admin & reseller
